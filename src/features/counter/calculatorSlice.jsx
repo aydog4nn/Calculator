@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 // Başlangıç değeri
 
 const initialState = {
-    value:0,
+    value:10,
 }
 
 export const calculatorSlice = createSlice({
