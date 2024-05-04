@@ -5,7 +5,10 @@ export default {
     extend: {
 
         colors:{
-            "body-bg":"#f1f5f9"
+            "body-bg":"#FCFCFC",
+            "buttons-bg":"#F8F8F8",
+            "button-items":"#54930F",
+            "result-screen-bg":"#87B003"
         }
     
     },

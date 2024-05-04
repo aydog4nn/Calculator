@@ -36,7 +36,7 @@ function Calculator() {
         let result = parseFloat(display);
         let currentOperation = lastOperation;
     
-        // Önceki işlemi ve sayıyı göz önünde bulundurarak hesaplamayı yap
+        
         if (lastOperation !== null) {
             const parts = showOperation.split(lastOperation);
             const number1 = parseFloat(parts[0]);
@@ -75,10 +75,10 @@ function Calculator() {
 
 
     return (
-        <section className="mx-auto bg-gray-500 p-10 columns-5 h-lvh flex items-center justify-center ">
+        <section className="mx-auto bg-body-bg p-10 columns-5 h-lvh flex items-center justify-center ">
             <div className="basis-1/3 bg-black h-full flex-col border-4 border-gray-500 rounded-md p-5">
                 {/* Result Screen */}
-                <div className="text-black text-5xl text-end p-5 h-1/3 bg-red-700 ">
+                <div className="text-black text-5xl text-end p-5 h-1/3 bg-result-screen-bg ">
                     <input type="text" value={showOperation || display} readOnly />
                     
                     
