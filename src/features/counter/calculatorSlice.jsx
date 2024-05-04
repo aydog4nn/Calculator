@@ -13,9 +13,6 @@ export const calculatorSlice = createSlice({
         reset:(state) => {
             state.value = 0
         },
-        getAPercantage:(state,percantage) => {
-            state.value = (state.value*(percantage/100))
-        },
         division:(state,dividerNumber) => {
             state.value = (state.value / dividerNumber)
         },
